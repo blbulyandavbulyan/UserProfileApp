@@ -33,7 +33,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name" />
+            android:hint="@string/name" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -49,7 +49,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Phone"
+            android:hint="@string/phone"
             android:inputType="phone" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="Gender"
+        android:text="@string/gender_selector_tooltip"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="@id/userPhone"
         app:layout_constraintTop_toBottomOf="@id/userPhone" />
@@ -78,12 +78,12 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="M" />
+            android:text="@string/gender_man" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="W" />
+            android:text="@string/gender_woman" />
     </RadioGroup>
 
     <com.google.android.material.switchmaterial.SwitchMaterial
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Receive notifications"
+        android:text="@string/receive_notifications"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/genders" />
@@ -103,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="About authorization on devices"
+        android:text="@string/about_authorization_on_devices"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/notificationSwitch" />
@@ -114,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="About new produts and offers"
+        android:text="@string/about_new_products_and_offers"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/authorizationNotifications" />
@@ -124,7 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
-        android:text="Score"
+        android:text="@string/score"
         app:layout_constraintBottom_toTopOf="@id/scoreIndicator"
         app:layout_constraintLeft_toLeftOf="@id/scoreIndicator" />
 
@@ -152,7 +152,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/saveButton"
-        android:text="Save"
+        android:text="@string/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

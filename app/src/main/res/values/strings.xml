@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">UserProfileApp</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="gender_selector_tooltip">Gender</string>
+    <string name="gender_man">M</string>
+    <string name="gender_woman">W</string>
+    <string name="receive_notifications">Receive notifications</string>
+    <string name="score">Score</string>
+    <string name="about_new_products_and_offers">About new products and offers</string>
+    <string name="about_authorization_on_devices">About authorization on devices</string>
+    <string name="save">Save</string>
 </resources>
