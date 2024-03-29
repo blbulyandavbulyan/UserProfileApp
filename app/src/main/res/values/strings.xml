@@ -11,4 +11,5 @@
     <string name="about_authorization_on_devices">About authorization on devices</string>
     <string name="save">Save</string>
     <string name="score_value_template">%d/100</string>
+    <string name="record_saved">Record was saved</string>
 </resources>

@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.allViews
 import androidx.core.widget.addTextChangedListener
 import com.blbulyandavbulan.userprofileapp.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -58,6 +59,11 @@ class MainActivity : AppCompatActivity() {
         binding.genders.setOnCheckedChangeListener { _, checkedId ->
             validGenderSelected = checkedId != -1
             recalculateButtonEnabledState()
+        }
+        val recordWasSaved =
+            Snackbar.make(binding.root, R.string.record_saved, Snackbar.LENGTH_LONG)
+        saveButton?.setOnClickListener {
+            recordWasSaved.show()
         }
     }
 
