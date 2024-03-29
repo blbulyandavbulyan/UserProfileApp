@@ -76,4 +76,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </RadioGroup>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/notificationSwitch"
+        android:text="Receive notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genders"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
