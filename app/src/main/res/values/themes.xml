@@ -8,23 +8,23 @@
 
     <style name="Theme.UserProfileApp" parent="Base.Theme.UserProfileApp" />
 
-    <style name="BaseHeader" parent="TextAppearance.AppCompat">
-        <item name="android:textSize">16sp</item>
+    <style name="BaseColoredHeader" parent="BaseHeader">
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="ScoreCountIndicator" parent="BaseHeader">
+    <style name="ScoreCountIndicator" parent="BaseColoredHeader">
         <item name="android:textColor">@color/gray</item>
     </style>
 
-    <style name="MyCheckboxesStyle" parent="Widget.Material3.CompoundButton.CheckBox">
-        <item name="buttonTint">@color/turquoise</item>
-    </style>
-
-    <style name="PhoneFieldStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="boxBackgroundColor">?colorPrimary</item>
+    <style name="PhoneFieldStyle" parent="BasesPhoneFieldStyle">
         <item name="android:textColorHint">@color/white</item>
         <item name="hintTextColor">@color/white</item>
         <item name="cursorColor">@color/white</item>
+        <item name="boxStrokeColor">@color/black</item>
+    </style>
+
+    <style name="PhoneFieldTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHighlight">@color/green</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>
