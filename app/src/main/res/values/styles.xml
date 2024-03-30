@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This file contains only abstract styles and common styles   -->
+    <style name="MyCheckboxesStyle" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/turquoise</item>
+    </style>
+
+    <style name="BasesPhoneFieldStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">?colorPrimary</item>
+    </style>
+
+    <style name="BaseHeader" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
