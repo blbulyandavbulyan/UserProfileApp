@@ -40,6 +40,7 @@
         android:id="@+id/userPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/PhoneFieldStyle"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
